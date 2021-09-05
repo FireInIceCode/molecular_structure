@@ -1,0 +1,8 @@
+ATOM      1  O  OSP3    1       0.000   0.700    0.000  1.00  0.00 
+ATOM      2  H  OSP3    1       0.700   0.000    0.000  1.00  0.00 
+ATOM      3  H  OSP3    1      -0.700   0.000    0.000  1.00  0.00 
+TER 
+CONECT    1    2    3
+CONECT    2    1    0
+CONECT    3    1    0
+END
