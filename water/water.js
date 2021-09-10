@@ -15,8 +15,8 @@ function init_iframe(id,parent){
 }
 
 hx=[
-    [2,'+',2,'+',3,'<sup>点燃</sup><br>->',4],
-    [4,'<sup>通电</sup><br>->',2,'+',2,'+',3]
+    [2,'+',3,'<sup>点燃</sup><br>->',4],
+    [4,'<sup>通电</sup><br>->',2,'+',3]
 ]
 texts=[
     'H<sub>2</sub>+O<sub>2</sub><arrow>点燃<br><op>-></op></arrow>H<sub>2</sub>O',
