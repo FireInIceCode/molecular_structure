@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+}
+
+.float{
+    position: fixed;
+    height: 60px;
+    bottom: 20px;
+    background-color: aliceblue;
+    color:cornflowerblue;
+    text-align: center;
+    line-height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    right: 20px;
+    /* width: 100px; */
+    cursor: pointer;
+    user-select: none;
+    transition: .5s;
+}
+.btn:hover{
+    transform: translate(-25%,0)scale(1.5,1);
+    height:80px;
+    line-height: 80px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+.text{
+    left: 50%;
+    font-size: xx-large;
+    transform: translate(-50%,0);
+}
+.dg.ac{
+    display: none;
+}
+html,body{
+    overflow: hidden;
+}
